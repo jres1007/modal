@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Modal } from "./components/modal";
 
 function App() {
   return (
@@ -18,6 +19,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <div id="container">
+        <div id="title">React Custom Component</div>
+        <div className="box">
+          <div className="sub_title">Modal</div>
+          <Modal />
+        </div>
+      </div>
     </div>
   );
 }
